@@ -2,65 +2,54 @@
 using static System.Console;
 
 namespace ConsoleApp
-{ 
+{
     //одинак
- public class Odinak
-  {
-    public static Odinak Instance()
+    public class Odinak
     {
-      if (_odinak == null)
-      {
-        _odinak = new Odinak();
-        return _odinak;
-      }
-      else
-      {
-        return _odinak;
-      }
-    }
-     Odinak()
-    {
-    }
-     static Odinak _odinak = null;
-     int d;
-    public int D
-    {
-      get { return d; }
-      set { d = value; }
+        public static Odinak Instance()
+        {
+            if (_odinak == null)
+            {
+                _odinak = new Odinak();
+                return _odinak;
+            }
+            else
+            {
+                return _odinak;
+            }
+        }
+        Odinak()
+        {
+        }
+        static Odinak _odinak = null;
+        int d;
+        public int D
+        {
+            get { return d; }
+            set { d = value; }
+        }
+
+        public void Print(string text)
+        {
+            WriteLine("{0}. d = {1}", text, d);
+        }
     }
 
-    public void Print(string text)
+    class Program
     {
-      WriteLine("{0}. d = {1}", text, d);
-    }
-  }
-
-  class Program
-  {
-    static void Main(string[] args)
-    {
+        static void Main(string[] args)
+        {
 
             Odinak first = Odinak.Instance();
 
-   
-      if (first != null)
-      {
+
+            if (first != null)
+            {
                 first.D = 25;
                 first.Print("first");
-      }
-      else
-        WriteLine("first == null");
-
-            Odinak second = Odinak.Instance();
-
-     /* if (second != null)
-      {
-                second.D = 66;
-                second.Print("obj2");
-      }
-      else
-        WriteLine("second == null");
+            }
+            else
+                WriteLine("first == null");
+        }
     }
-     */
-  }
 }
