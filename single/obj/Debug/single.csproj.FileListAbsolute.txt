@@ -7,3 +7,12 @@ C:\Users\User\source\repos\single\obj\Debug\single.csproj.GenerateResource.cache
 C:\Users\User\source\repos\single\obj\Debug\single.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\single\obj\Debug\single.exe
 C:\Users\User\source\repos\single\obj\Debug\single.pdb
+C:\Users\User\source\repos\singleton\single\bin\Debug\single.exe.config
+C:\Users\User\source\repos\singleton\single\bin\Debug\single.exe
+C:\Users\User\source\repos\singleton\single\bin\Debug\single.pdb
+C:\Users\User\source\repos\singleton\single\obj\Debug\single.csprojAssemblyReference.cache
+C:\Users\User\source\repos\singleton\single\obj\Debug\single.Properties.Resources.resources
+C:\Users\User\source\repos\singleton\single\obj\Debug\single.csproj.GenerateResource.cache
+C:\Users\User\source\repos\singleton\single\obj\Debug\single.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\singleton\single\obj\Debug\single.exe
+C:\Users\User\source\repos\singleton\single\obj\Debug\single.pdb

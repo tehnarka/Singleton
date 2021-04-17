@@ -53,13 +53,14 @@ namespace ConsoleApp
 
             Odinak second = Odinak.Instance();
 
-      if (second != null)
+     /* if (second != null)
       {
-                second.D = 77;
+                second.D = 66;
                 second.Print("obj2");
       }
       else
         WriteLine("second == null");
     }
+     */
   }
 }
