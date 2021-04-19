@@ -2,6 +2,7 @@
 using System;
 using single;
 using ConsoleApp;
+
 //в процесі розробки :)
 namespace UnitTestSingle
 {
